@@ -1,0 +1,48 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.main
+{
+    margin: 100px auto;
+    width: 100%;
+    text-align: center;   
+    
+}
+
+.main input[type="text"], input[type="password"]
+{
+    width: 30%;
+    height: 40px;
+    padding: 10px 20px 10px 20px; /* Topo | Direita | Baixo | Esquerda */
+    display: block;
+    border-radius: 6px;
+    margin: 0 auto;
+}
+.main input[type="submit"]
+{
+    width: 30%;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.main a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+@media screen and (max-width: 720px)
+{
+    .main
+    {
+        display: block;   
+    }
+    
+}
