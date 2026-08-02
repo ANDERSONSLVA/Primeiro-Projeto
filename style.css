@@ -6,12 +6,17 @@
     
 }
 
+.container
+{
+    background-color: gray;
+    padding-top: 100px;
+}
 .main
 {
-    margin: 100px auto;
+    margin: 0px auto;
     width: 100%;
-    text-align: center;   
-    
+    text-align: center; 
+   
 }
 
 .main input[type="text"], input[type="password"]
@@ -21,7 +26,7 @@
     padding: 10px 20px 10px 20px; /* Topo | Direita | Baixo | Esquerda */
     display: block;
     border-radius: 6px;
-    margin: 0 auto;
+    margin: 6px auto;
 }
 .main input[type="submit"]
 {
